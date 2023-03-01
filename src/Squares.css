@@ -1,0 +1,35 @@
+.container{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.red, .blue, .yellow, .green{
+    width: 100px;
+    height: 100px;
+}
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.display-fullscreen{
+    width: 200px;
+    height: 200px;
+}
+.display-none{
+    display: none;
+}
